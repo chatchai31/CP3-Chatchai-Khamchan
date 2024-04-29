@@ -1,4 +1,9 @@
-x = int(input())
-for i in range(x):
-    print(" "*(x-(i+1)),"*"*(i+1),end="")
-    print("*"*i)
+def sayHello():
+    print("Hello")
+    Name()
+    print("******")
+def Name():
+    print("Ton")
+    sayHello()
+sayHello()
+Name()
