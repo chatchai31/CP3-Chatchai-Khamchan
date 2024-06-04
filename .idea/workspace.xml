@@ -5,9 +5,8 @@
   </component>
   <component name="ChangeListManager">
     <list default="true" id="e7f9ecbc-fe2d-4a1b-a135-165e7229a21c" name="Changes" comment="">
-      <change afterPath="$PROJECT_DIR$/Lecture54_Chatchai.py" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Lecture54_Chatchai_k.py" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/test.py" beforeDir="false" afterPath="$PROJECT_DIR$/test.py" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -33,23 +32,23 @@
     <option name="hideEmptyMiddlePackages" value="true" />
     <option name="showLibraryContents" value="true" />
   </component>
-  <component name="PropertiesComponent"><![CDATA[{
-  "keyToString": {
-    "Python.Exercise11_Chatchai_K.executor": "Run",
-    "Python.Exercise5_1_Chatchai_K.executor": "Run",
-    "Python.Exercise5_2_Chatchai_K.executor": "Run",
-    "Python.Exercise_8_Chatchai.executor": "Run",
-    "Python.Lecture50_Chatchai.executor": "Run",
-    "Python.Lecture53_Chatchai.executor": "Run",
-    "Python.Lecture54_Chatchai.executor": "Run",
-    "Python.Lecture54_Chatchai_k.executor": "Run",
-    "Python.test.executor": "Run",
-    "RunOnceActivity.OpenProjectViewOnStart": "true",
-    "RunOnceActivity.ShowReadmeOnStart": "true",
-    "git-widget-placeholder": "main"
+  <component name="PropertiesComponent">{
+  &quot;keyToString&quot;: {
+    &quot;Python.Exercise11_Chatchai_K.executor&quot;: &quot;Run&quot;,
+    &quot;Python.Exercise5_1_Chatchai_K.executor&quot;: &quot;Run&quot;,
+    &quot;Python.Exercise5_2_Chatchai_K.executor&quot;: &quot;Run&quot;,
+    &quot;Python.Exercise_8_Chatchai.executor&quot;: &quot;Run&quot;,
+    &quot;Python.Lecture50_Chatchai.executor&quot;: &quot;Run&quot;,
+    &quot;Python.Lecture53_Chatchai.executor&quot;: &quot;Run&quot;,
+    &quot;Python.Lecture54_Chatchai.executor&quot;: &quot;Run&quot;,
+    &quot;Python.Lecture54_Chatchai_k.executor&quot;: &quot;Run&quot;,
+    &quot;Python.test.executor&quot;: &quot;Run&quot;,
+    &quot;RunOnceActivity.OpenProjectViewOnStart&quot;: &quot;true&quot;,
+    &quot;RunOnceActivity.ShowReadmeOnStart&quot;: &quot;true&quot;,
+    &quot;git-widget-placeholder&quot;: &quot;main&quot;
   }
-}]]></component>
-  <component name="RunManager" selected="Python.Lecture54_Chatchai_k">
+}</component>
+  <component name="RunManager" selected="Python.test">
     <configuration name="Lecture50_Chatchai" type="PythonConfigurationType" factoryName="Python" temporary="true" nameIsGenerated="true">
       <module name="CP3-Chatchai-Khamchan" />
       <option name="ENV_FILES" value="" />
@@ -162,11 +161,11 @@
     </configuration>
     <recent_temporary>
       <list>
+        <item itemvalue="Python.test" />
         <item itemvalue="Python.Lecture54_Chatchai_k" />
         <item itemvalue="Python.Lecture54_Chatchai" />
         <item itemvalue="Python.Lecture53_Chatchai" />
         <item itemvalue="Python.Lecture50_Chatchai" />
-        <item itemvalue="Python.test" />
       </list>
     </recent_temporary>
   </component>
