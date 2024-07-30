@@ -6,11 +6,13 @@ def Calculate(x):
 
     if BMI < 18.5:
         labelResult.configure(text="ผอมเกินไป")
-    elif 25 > BMI > 18.5:
-        labelResult.configure(text="รูปร่างปกติ")
-    elif 30 > BMI > 24:
-        labelResult.configure(text="ค่อนข้างอ้วน")
-    elif BMI > 29:
+    elif 22.9 >= BMI > 18.5:
+        labelResult.configure(text="น้ำหนักปกติ เหมาะสม")
+    elif 25 >= BMI > 22.9:
+        labelResult.configure(text="น้ำหนักเกิน")
+    elif 29.9 >= BMI > 25:
+        labelResult.configure(text="อ้วน")
+    elif BMI > 29.9:
         labelResult.configure(text="อ้วนมาก")
 
 MainWindow = Tk()
@@ -29,7 +31,7 @@ calculateButton.bind('<Button-1>',Calculate)
 labelBMI = Label(MainWindow,text="ผลลัพธ์ BMI")
 labelBMI.grid(row=2,column=1)
 
-labelResult = Label(MainWindow,width=15,foreground='red',font=("TH SarabunPSK",15))
+labelResult = Label(MainWindow,width=16,foreground='red',font=("TH SarabunPSK",15))
 labelResult.grid(row=3,column=1)
 
 MainWindow.mainloop()
