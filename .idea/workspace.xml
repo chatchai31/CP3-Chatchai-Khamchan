@@ -5,6 +5,10 @@
   </component>
   <component name="ChangeListManager">
     <list default="true" id="e7f9ecbc-fe2d-4a1b-a135-165e7229a21c" name="Changes" comment="">
+      <change afterPath="$PROJECT_DIR$/Lecture99_Chatchai.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Tk_Example.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Tk_Example1.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Tk_Example2.py" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/test.py" beforeDir="false" afterPath="$PROJECT_DIR$/test.py" afterDir="false" />
     </list>
@@ -32,46 +36,28 @@
     <option name="hideEmptyMiddlePackages" value="true" />
     <option name="showLibraryContents" value="true" />
   </component>
-  <component name="PropertiesComponent">{
-  &quot;keyToString&quot;: {
-    &quot;Python.Exercise11_Chatchai_K.executor&quot;: &quot;Run&quot;,
-    &quot;Python.Exercise5_1_Chatchai_K.executor&quot;: &quot;Run&quot;,
-    &quot;Python.Exercise5_2_Chatchai_K.executor&quot;: &quot;Run&quot;,
-    &quot;Python.Exercise_8_Chatchai.executor&quot;: &quot;Run&quot;,
-    &quot;Python.Lecture50_Chatchai.executor&quot;: &quot;Run&quot;,
-    &quot;Python.Lecture53_Chatchai.executor&quot;: &quot;Run&quot;,
-    &quot;Python.Lecture54_Chatchai.executor&quot;: &quot;Run&quot;,
-    &quot;Python.Lecture54_Chatchai_k.executor&quot;: &quot;Run&quot;,
-    &quot;Python.test.executor&quot;: &quot;Run&quot;,
-    &quot;RunOnceActivity.OpenProjectViewOnStart&quot;: &quot;true&quot;,
-    &quot;RunOnceActivity.ShowReadmeOnStart&quot;: &quot;true&quot;,
-    &quot;git-widget-placeholder&quot;: &quot;main&quot;
+  <component name="PropertiesComponent"><![CDATA[{
+  "keyToString": {
+    "Python.Exercise11_Chatchai_K.executor": "Run",
+    "Python.Exercise5_1_Chatchai_K.executor": "Run",
+    "Python.Exercise5_2_Chatchai_K.executor": "Run",
+    "Python.Exercise_8_Chatchai.executor": "Run",
+    "Python.Lecture50_Chatchai.executor": "Run",
+    "Python.Lecture53_Chatchai.executor": "Run",
+    "Python.Lecture54_Chatchai.executor": "Run",
+    "Python.Lecture54_Chatchai_k.executor": "Run",
+    "Python.Lecture99_Chatchai.executor": "Run",
+    "Python.Tk_Example.executor": "Run",
+    "Python.Tk_Example1.executor": "Run",
+    "Python.Tk_Example2.executor": "Run",
+    "Python.test.executor": "Run",
+    "RunOnceActivity.OpenProjectViewOnStart": "true",
+    "RunOnceActivity.ShowReadmeOnStart": "true",
+    "git-widget-placeholder": "main"
   }
-}</component>
-  <component name="RunManager" selected="Python.test">
-    <configuration name="Lecture50_Chatchai" type="PythonConfigurationType" factoryName="Python" temporary="true" nameIsGenerated="true">
-      <module name="CP3-Chatchai-Khamchan" />
-      <option name="ENV_FILES" value="" />
-      <option name="INTERPRETER_OPTIONS" value="" />
-      <option name="PARENT_ENVS" value="true" />
-      <envs>
-        <env name="PYTHONUNBUFFERED" value="1" />
-      </envs>
-      <option name="SDK_HOME" value="" />
-      <option name="WORKING_DIRECTORY" value="$PROJECT_DIR$/.venv" />
-      <option name="IS_MODULE_SDK" value="true" />
-      <option name="ADD_CONTENT_ROOTS" value="true" />
-      <option name="ADD_SOURCE_ROOTS" value="true" />
-      <option name="SCRIPT_NAME" value="$PROJECT_DIR$/.venv/Lecture50_Chatchai.py" />
-      <option name="PARAMETERS" value="" />
-      <option name="SHOW_COMMAND_LINE" value="false" />
-      <option name="EMULATE_TERMINAL" value="false" />
-      <option name="MODULE_MODE" value="false" />
-      <option name="REDIRECT_INPUT" value="false" />
-      <option name="INPUT_FILE" value="" />
-      <method v="2" />
-    </configuration>
-    <configuration name="Lecture53_Chatchai" type="PythonConfigurationType" factoryName="Python" temporary="true" nameIsGenerated="true">
+}]]></component>
+  <component name="RunManager" selected="Python.Lecture99_Chatchai">
+    <configuration name="Lecture99_Chatchai" type="PythonConfigurationType" factoryName="Python" temporary="true" nameIsGenerated="true">
       <module name="CP3-Chatchai-Khamchan" />
       <option name="ENV_FILES" value="" />
       <option name="INTERPRETER_OPTIONS" value="" />
@@ -84,7 +70,7 @@
       <option name="IS_MODULE_SDK" value="true" />
       <option name="ADD_CONTENT_ROOTS" value="true" />
       <option name="ADD_SOURCE_ROOTS" value="true" />
-      <option name="SCRIPT_NAME" value="$PROJECT_DIR$/Lecture53_Chatchai.py" />
+      <option name="SCRIPT_NAME" value="$PROJECT_DIR$/Lecture99_Chatchai.py" />
       <option name="PARAMETERS" value="" />
       <option name="SHOW_COMMAND_LINE" value="false" />
       <option name="EMULATE_TERMINAL" value="false" />
@@ -93,7 +79,7 @@
       <option name="INPUT_FILE" value="" />
       <method v="2" />
     </configuration>
-    <configuration name="Lecture54_Chatchai" type="PythonConfigurationType" factoryName="Python" temporary="true" nameIsGenerated="true">
+    <configuration name="Tk_Example" type="PythonConfigurationType" factoryName="Python" temporary="true" nameIsGenerated="true">
       <module name="CP3-Chatchai-Khamchan" />
       <option name="ENV_FILES" value="" />
       <option name="INTERPRETER_OPTIONS" value="" />
@@ -106,7 +92,7 @@
       <option name="IS_MODULE_SDK" value="true" />
       <option name="ADD_CONTENT_ROOTS" value="true" />
       <option name="ADD_SOURCE_ROOTS" value="true" />
-      <option name="SCRIPT_NAME" value="$PROJECT_DIR$/Lecture54_Chatchai.py" />
+      <option name="SCRIPT_NAME" value="$PROJECT_DIR$/Tk_Example.py" />
       <option name="PARAMETERS" value="" />
       <option name="SHOW_COMMAND_LINE" value="false" />
       <option name="EMULATE_TERMINAL" value="false" />
@@ -115,7 +101,7 @@
       <option name="INPUT_FILE" value="" />
       <method v="2" />
     </configuration>
-    <configuration name="Lecture54_Chatchai_k" type="PythonConfigurationType" factoryName="Python" temporary="true" nameIsGenerated="true">
+    <configuration name="Tk_Example1" type="PythonConfigurationType" factoryName="Python" temporary="true" nameIsGenerated="true">
       <module name="CP3-Chatchai-Khamchan" />
       <option name="ENV_FILES" value="" />
       <option name="INTERPRETER_OPTIONS" value="" />
@@ -128,7 +114,29 @@
       <option name="IS_MODULE_SDK" value="true" />
       <option name="ADD_CONTENT_ROOTS" value="true" />
       <option name="ADD_SOURCE_ROOTS" value="true" />
-      <option name="SCRIPT_NAME" value="$PROJECT_DIR$/Lecture54_Chatchai_k.py" />
+      <option name="SCRIPT_NAME" value="$PROJECT_DIR$/Tk_Example1.py" />
+      <option name="PARAMETERS" value="" />
+      <option name="SHOW_COMMAND_LINE" value="false" />
+      <option name="EMULATE_TERMINAL" value="false" />
+      <option name="MODULE_MODE" value="false" />
+      <option name="REDIRECT_INPUT" value="false" />
+      <option name="INPUT_FILE" value="" />
+      <method v="2" />
+    </configuration>
+    <configuration name="Tk_Example2" type="PythonConfigurationType" factoryName="Python" temporary="true" nameIsGenerated="true">
+      <module name="CP3-Chatchai-Khamchan" />
+      <option name="ENV_FILES" value="" />
+      <option name="INTERPRETER_OPTIONS" value="" />
+      <option name="PARENT_ENVS" value="true" />
+      <envs>
+        <env name="PYTHONUNBUFFERED" value="1" />
+      </envs>
+      <option name="SDK_HOME" value="" />
+      <option name="WORKING_DIRECTORY" value="$PROJECT_DIR$" />
+      <option name="IS_MODULE_SDK" value="true" />
+      <option name="ADD_CONTENT_ROOTS" value="true" />
+      <option name="ADD_SOURCE_ROOTS" value="true" />
+      <option name="SCRIPT_NAME" value="$PROJECT_DIR$/Tk_Example2.py" />
       <option name="PARAMETERS" value="" />
       <option name="SHOW_COMMAND_LINE" value="false" />
       <option name="EMULATE_TERMINAL" value="false" />
@@ -161,11 +169,11 @@
     </configuration>
     <recent_temporary>
       <list>
+        <item itemvalue="Python.Lecture99_Chatchai" />
+        <item itemvalue="Python.Tk_Example2" />
+        <item itemvalue="Python.Tk_Example1" />
+        <item itemvalue="Python.Tk_Example" />
         <item itemvalue="Python.test" />
-        <item itemvalue="Python.Lecture54_Chatchai_k" />
-        <item itemvalue="Python.Lecture54_Chatchai" />
-        <item itemvalue="Python.Lecture53_Chatchai" />
-        <item itemvalue="Python.Lecture50_Chatchai" />
       </list>
     </recent_temporary>
   </component>
