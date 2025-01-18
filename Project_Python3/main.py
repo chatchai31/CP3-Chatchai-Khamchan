@@ -1,7 +1,7 @@
 from tkinter import *
 from tkinter import ttk
 from PIL import Image, ImageTk  # ใช้ Pillow สำหรับการจัดการรูปภาพ
-from tkinter.messagebox import showinfo
+from tkinter.messagebox import showinfo # ใช้แสดงข้อความแจ้งเตือน
 import math
 
 class AppGUI:
@@ -74,7 +74,7 @@ class AppGUI:
             else:
                 price = self.calculate_price(select_car_type, distance, time_late)
                 self.textBoxResult.delete(0, END)
-                self.textBoxResult.insert(0, f"{math.ceil(price)} บาท")
+                self.textBoxResult.insert(0, f"{math.ceil(price)} บาท") # ceil ปัดเศษให้เป็นจำนวนเต็ม
         except ValueError:
             showinfo(title='Error', message="กรุณากรองข้อมูลให้ครบ")
 
@@ -82,50 +82,50 @@ class AppGUI:
         price = 0
         # คำนวณตามประเภทของรถ
         if select_car_type == "ขนาดปกติ":
-            price = self.calculate_normal_car_price(distance, time_late)
+            price = self.calculate_normal_car(distance, time_late)
         elif select_car_type == "ขนาดใหญ่ (สามตอน/แวน)":
-            price = self.calculate_large_car_price(distance, time_late)
+            price = self.calculate_large_car(distance, time_late)
         return price
 
-    def calculate_normal_car_price(self, distance, time_late):
+    def calculate_normal_car(self, distance, time_late):
         price = 35.00  # ค่าโดยสารเริ่มต้น
         distance -= 1  # กิโลเมตรแรก
         # ทำแบบเดียวกันสำหรับระยะทางที่เหลือ
-        price += self.calculate_additional_price(distance)
+        price += self.calculate_additional(distance)
         price += time_late * 3.00  # เพิ่มค่าใช้จ่ายจากเวลารถติด
         return price
 
-    def calculate_large_car_price(self, distance, time_late):
+    def calculate_large_car(self, distance, time_late):
         price = 40.00  # ค่าโดยสารเริ่มต้น
         distance -= 1  # กิโลเมตรแรก
         # ทำแบบเดียวกันสำหรับระยะทางที่เหลือ
-        price += self.calculate_additional_price(distance)
+        price += self.calculate_additional(distance)
         price += time_late * 3.00  # เพิ่มค่าใช้จ่ายจากเวลารถติด
         return price
 
-    def calculate_additional_price(self, distance):
+    def calculate_additional(self, distance):
         price = 0
-        if distance > 0:
+        if distance > 0: #ระยะทางเกินกว่า 1 กิโลเมตรถึงกิโลเมตรที่ 10 กิโลเมตรละ 6.50 บาท
             km = min(distance, 9)
             price += km * 6.50
             distance -= km
-        if distance > 0:
+        if distance > 0: #ระยะทางเกินกว่า 10 กิโลเมตรถึงกิโลเมตรที่ 20 กิโลเมตรละ 7.00 บาท
             km = min(distance, 10)
             price += km * 7.00
             distance -= km
-        if distance > 0:
+        if distance > 0: #ระยะทางเกินกว่า 20 กิโลเมตรถึงกิโลเมตรที่ 40 กิโลเมตรละ 8.00 บาท
             km = min(distance, 20)
             price += km * 8.00
             distance -= km
-        if distance > 0:
+        if distance > 0: #ระยะทางเกินกว่า 40 กิโลเมตรถึงกิโลเมตรที่ 60 กิโลเมตรละ 8.50 บาท
             km = min(distance, 20)
             price += km * 8.50
             distance -= km
-        if distance > 0:
+        if distance > 0: #ระยะทางเกินกว่า 60 กิโลเมตรถึงกิโลเมตรที่ 80 กิโลเมตรละ 9.00 บาท
             km = min(distance, 20)
             price += km * 9.00
             distance -= km
-        if distance > 0:
+        if distance > 0: #ระยะทางเกินกว่า 80 กิโลเมตรขึ้นไป กิโลเมตรละ 10.50 บาท
             price += distance * 10.50
         return price
 
